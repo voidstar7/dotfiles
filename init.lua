@@ -57,6 +57,16 @@ require('lazy').setup({
   { "tpope/vim-surround" },
   { "alvan/vim-closetag" },
   { "tpope/vim-liquid" },
+	{
+  "rest-nvim/rest.nvim",
+  dependencies = {
+    "nvim-treesitter/nvim-treesitter",
+    opts = function (_, opts)
+      opts.ensure_installed = opts.ensure_installed or {}
+      table.insert(opts.ensure_installed, "http")
+    end,
+		}
+	}
 })
 
 -- Basic Neovim settings
@@ -87,6 +97,7 @@ vim.opt.bg = "light"
 vim.opt.hlsearch = false
 vim.opt.foldmethod = "syntax"
 vim.opt.cursorline = true
+vim.opt.splitright = true
 
 -- Highlighting settings without 'term'
 vim.api.nvim_set_hl(0, "LineNr", { ctermfg = 250 })
