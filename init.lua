@@ -16,8 +16,8 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Setup leaders before loading lazy.nvim
-vim.g.mapleader = "\\"
-vim.g.maplocalleader = "\\"
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- Setup lazy.nvim
 -- plugin files are in ~/.local/share/nvim/lazy
@@ -42,6 +42,8 @@ require('lazy').setup({
     "preservim/nerdtree", 
     config = function()
       vim.g.NERDTreeShowHidden = 1
+      vim.g.NERDTreeShowBookmarks = 1
+      vim.g.NERDTreeMinimalUI = 1
     end
   },
   { "airblade/vim-gitgutter" },
@@ -100,6 +102,7 @@ vim.opt.cursorline = true
 vim.opt.splitright = true
 
 -- Highlighting settings without 'term'
+-- https://www.ditig.com/256-colors-cheat-sheet
 vim.api.nvim_set_hl(0, "LineNr", { ctermfg = 250 })
 vim.api.nvim_set_hl(0, "Conceal", { ctermbg = "none" })
 vim.api.nvim_set_hl(0, "ErrorMsg", { ctermfg = 231, ctermbg = 9 })
@@ -109,10 +112,11 @@ vim.api.nvim_set_hl(0, "MatchParen", { ctermfg = 0, ctermbg = 11 })
 vim.api.nvim_set_hl(0, "Visual", { ctermbg = 254 })
 vim.api.nvim_set_hl(0, "Folded", { ctermbg = 255 })
 vim.api.nvim_set_hl(0, "VertSplit", { ctermbg = 16 })
-vim.api.nvim_set_hl(0, "StatusLineNC", { ctermbg = 254 })
+vim.api.nvim_set_hl(0, "StatusLineNC", { ctermfg = 255, ctermbg = 0 })
 vim.api.nvim_set_hl(0, "CursorLine", { ctermbg = 255 })
 vim.api.nvim_set_hl(0, "CursorColumn", { ctermbg = 255 })
 vim.api.nvim_set_hl(0, "CursorLineNr", { ctermfg = 245, ctermbg = 255 })
+vim.api.nvim_set_hl(0, "String", { ctermfg = 28 })
 
 -- Key Mappings
 local map = vim.api.nvim_set_keymap
@@ -153,3 +157,7 @@ map('i', '<Right>', '<C-o><C-w>l<Esc>', opts)
 map('i', '<Up>', '<C-o><C-w>k<Esc>', opts)
 map('i', '<Down>', '<C-o><C-w>j<Esc>', opts)
 map('i', '<C-f>', '<esc>f>a', opts)
+
+map('n', '<leader>s', "<Esc>:Rest run<CR>", opts)
+map('n', '<leader>c', '"+y', opts)
+map('v', '<leader>c', '"+y', opts)
