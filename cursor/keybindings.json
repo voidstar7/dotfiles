@@ -20,9 +20,30 @@
         "command": "extension.vim_ctrl+d",
         "when": "editorTextFocus && vim.active && vim.use<C-d> && !inDebugRepl"
     },
+
+    // focus the chat window
     {
         "key": "cmd+i",
         "command": "composerMode.agent"
+    },
+
+    
+    // use tmux bindings to navigate between split panes
+    {
+        "key": "ctrl+space l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+space h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+space k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+space j",
+        "command": "workbench.action.navigateDown"
     }
 
 ]
