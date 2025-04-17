@@ -1,0 +1,20 @@
+{
+    "window.commandCenter": 1,
+    "workbench.colorTheme": "Visual Studio Light",
+    "terminal.integrated.fontSize": 14,
+    "chat.editor.fontSize": 0,
+    "editor.fontSize": 14,
+    "editor.lineNumbers": "relative",
+    "editor.stickyScroll.enabled": false,
+
+  // https://stackoverflow.com/questions/71049196/how-can-i-turn-off-auto-complete-for-txt-files-in-vs-code
+    "[plaintext]": {
+    "editor.quickSuggestions": {
+      "other": false,      // or "off"
+      "comments": false,   // or "off"
+      "strings": false     // or "off"
+    }
+  },
+  "editor.wordWrap": "on"
+
+}
