@@ -117,6 +117,8 @@ vim.api.nvim_set_hl(0, "CursorLine", { ctermbg = 255 })
 vim.api.nvim_set_hl(0, "CursorColumn", { ctermbg = 255 })
 vim.api.nvim_set_hl(0, "CursorLineNr", { ctermfg = 245, ctermbg = 255 })
 vim.api.nvim_set_hl(0, "String", { ctermfg = 28 })
+vim.api.nvim_set_hl(0, "TabLineSel", { ctermfg = 0, ctermbg = 255 })
+
 
 -- Key Mappings
 local map = vim.api.nvim_set_keymap
