@@ -30,7 +30,7 @@ pre .hljs-comment {
 }
 
 .vscode-light pre .hljs-attr {
-  color: #eab700;
+  color: #3e00ea;
 }
 
 .vscode-dark pre .hljs-attr {
@@ -43,7 +43,7 @@ pre .hljs-comment {
 
 .vscode-light pre .hljs-number,
 .vscode-light pre .hljs-literal {
-  color: #f5871f;
+  color: #f51f1f;
 }
 
 .vscode-dark pre .hljs-number,
