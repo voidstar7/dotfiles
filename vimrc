@@ -1,7 +1,7 @@
 filetype plugin on
 syntax on
 set notermguicolors
-colorscheme vim
+colorscheme default
 " this seems so unnecessary to have to source .vimrc on load just to make my colors work
 autocmd VimEnter * source ~/.vimrc
 
