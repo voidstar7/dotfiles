@@ -25,7 +25,7 @@ require('lazy').setup({
   { "junegunn/goyo.vim" },
   { 
 		"vimwiki/vimwiki",
-		config = function() 
+		init = function() 
 			vim.g.vimwiki_list = {{ path = '~/vimwiki/', syntax = 'markdown', ext = '.md' }} 
 		end 
 	},
