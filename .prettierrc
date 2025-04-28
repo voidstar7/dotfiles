@@ -1,0 +1,12 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.http",
+      "options": {
+        "parser": "graphql"
+      }
+    }
+  ]
+}

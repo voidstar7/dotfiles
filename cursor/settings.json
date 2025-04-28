@@ -16,5 +16,6 @@
   "rest-client.previewOption": "body",
   "rest-client.showResponseInDifferentTab": true,
   "rest-client.previewResponseInUntitledDocument": true,
-  "workbench.editor.enablePreview": false
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.configPath": "~/.prettierrc"
 }
