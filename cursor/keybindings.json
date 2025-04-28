@@ -26,23 +26,22 @@
         "key": "cmd+i",
         "command": "composerMode.agent"
     },
-
     
-    // use tmux bindings to navigate between split panes
+    // navigate between split panes
     {
-        "key": "ctrl+space l",
+        "key": "alt+l",
         "command": "workbench.action.navigateRight"
     },
     {
-        "key": "ctrl+space h",
+        "key": "alt+h",
         "command": "workbench.action.navigateLeft"
     },
     {
-        "key": "ctrl+space k",
+        "key": "alt+k",
         "command": "workbench.action.navigateUp"
     },
     {
-        "key": "ctrl+space j",
+        "key": "alt+j",
         "command": "workbench.action.navigateDown"
     }
 
