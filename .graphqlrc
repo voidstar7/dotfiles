@@ -1,8 +1,14 @@
 {
-  "schema": [
-    "../dev-support/graphql-schemas/admin_api.graphql"
-  ],
-  "documents": "../dev-support/**/*.gql",
+  "projects": {
+    "admin": {
+      "schema": "../dev-support/graphql-schemas/admin_api.graphql",
+      "documents": "../dev-support/tickets/admin-api/**/*.gql"
+    },
+    "storefront": {
+      "schema": "../dev-support/graphql-schemas/storefront_api.graphql",
+      "documents": "../dev-support/tickets/storefront-api/**/*.gql"
+    }
+  },
   "extensions": {
     "end-of-line": "auto"
   }
