@@ -18,5 +18,9 @@
   "rest-client.previewResponseInUntitledDocument": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.configPath": "~/.prettierrc",
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "cursor.cpp.disabledLanguages": [
+    "markdown",
+    "plaintext"
+  ]
 }
