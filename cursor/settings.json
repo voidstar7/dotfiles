@@ -17,5 +17,6 @@
   "rest-client.showResponseInDifferentTab": true,
   "rest-client.previewResponseInUntitledDocument": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.configPath": "~/.prettierrc"
+  "prettier.configPath": "~/.prettierrc",
+  "explorer.confirmDragAndDrop": false
 }
