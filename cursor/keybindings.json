@@ -43,6 +43,18 @@
     {
         "key": "alt+j",
         "command": "workbench.action.navigateDown"
+    },
+
+    // send api request for http and graphql files
+    {
+      "key": "alt+cmd+r",
+      "command": "rest-client.request",
+      "when": "editorTextFocus && (editorLangId == 'http' || editorLangId == 'graphql')"
+    },
+    {
+      "key": "alt+cmd+r",
+      "command": "-rest-client.request",
+      "when": "editorTextFocus && editorLangId == 'http'"
     }
 
 ]
