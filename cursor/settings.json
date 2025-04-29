@@ -22,5 +22,6 @@
   "cursor.cpp.disabledLanguages": [
     "markdown",
     "plaintext"
-  ]
+  ],
+  "graphql-config.load.filePath": "../.dotfiles/.graphqlrc"
 }

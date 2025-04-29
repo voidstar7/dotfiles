@@ -1,0 +1,9 @@
+{
+  "schema": [
+    "../dev-support/graphql-schemas/admin_api.graphql"
+  ],
+  "documents": "../dev-support/**/*.gql",
+  "extensions": {
+    "end-of-line": "auto"
+  }
+}
