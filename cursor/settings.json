@@ -6,6 +6,8 @@
     "editor.wordWrap": "on",
     "editor.lineNumbers": "relative",
     "editor.stickyScroll.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
     "[plaintext]": {
     "editor.quickSuggestions": {
       "other": false,
