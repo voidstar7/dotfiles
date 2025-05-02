@@ -55,17 +55,17 @@
       "key": "alt+cmd+r",
       "command": "-rest-client.request",
       "when": "editorTextFocus && editorLangId == 'http'"
-    }
+    },
 
     // change vim normal mode screen up (ctrl+y)/down(ctrl+e)
     {
         "key": "shift+j",
         "command": "extension.vim_ctrl+y",
-        "when": "editorTextFocus && vim.active && vim.use<C-y> && !inDebugRepl"
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && vim.use<C-y> && !inDebugRepl"
     },
     {
         "key": "shift+k",
         "command": "extension.vim_ctrl+e",
-        "when": "editorTextFocus && vim.active && vim.use<C-e> && !inDebugRepl"
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && vim.use<C-e> && !inDebugRepl"
     }
-]
+] 
