@@ -1,6 +1,7 @@
 {
     "workbench.colorTheme": "Visual Studio Light",
     "terminal.integrated.fontSize": 14,
+		"workbench.editor.enablePreview": false,
     "chat.editor.fontSize": 0,
     "editor.fontSize": 14,
     "editor.wordWrap": "on",
