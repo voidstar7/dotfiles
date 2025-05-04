@@ -67,34 +67,24 @@
         "key": "shift+k",
         "command": "extension.vim_ctrl+e",
         "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && vim.use<C-e> && !inDebugRepl"
-    }
+    },
 
     // trigger suggestions/completions
     {
-        "key": "ctrl+j",
+        "key": "ctrl+l",
         "command": "editor.action.triggerSuggest",
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
     },
 
     // use vim up/down for suggestion/completion dropdown list
     {
-        "key": "j",
+        "key": "ctrl+j",
         "command": "selectNextSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
     },
     {
-        "key": "ctrl+j",
-        "command": "selectNextPageSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
-    }
-    {
-        "key": "k",
-        "command": "selectPrevSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
-    },
-    {
         "key": "ctrl+k",
-        "command": "selectPrevPageSuggestion",
+        "command": "selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
     }
 ] 
