@@ -26,5 +26,6 @@
     "markdown",
     "plaintext"
   ],
-  "graphql-config.load.filePath": "../.dotfiles/.graphqlrc"
+  "graphql-config.load.filePath": "../.dotfiles/.graphqlrc",
+  "cursor.cpp.enablePartialAccepts": true
 }
