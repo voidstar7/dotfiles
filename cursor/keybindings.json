@@ -59,12 +59,12 @@
 
     // change vim normal mode screen up (ctrl+y)/down(ctrl+e)
     {
-        "key": "shift+j",
+        "key": "shift+k",
         "command": "extension.vim_ctrl+y",
         "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && vim.use<C-y> && !inDebugRepl"
     },
     {
-        "key": "shift+k",
+        "key": "shift+j",
         "command": "extension.vim_ctrl+e",
         "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && vim.use<C-e> && !inDebugRepl"
     },
