@@ -86,5 +86,18 @@
         "key": "ctrl+k",
         "command": "selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+    },
+
+    // stay in insert mode after dismissing suggestions
+    // https://mario-gunawan.medium.com/vscode-vim-setup-its-not-as-easy-as-you-think-b8d1d97e8b13
+    {
+      "key": "escape",
+      "command": "extension.vim_escape",
+      "when": "editorTextFocus && vim.active && !inDebugRepl && !parameterHintsVisible && !suggestWidgetVisible"
+    },
+    {
+      "key": "escape",
+      "command": "-extension.vim_escape",
+      "when": "editorTextFocus && vim.active && !inDebugRepl"
     }
 ] 
