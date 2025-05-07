@@ -99,5 +99,11 @@
       "key": "escape",
       "command": "-extension.vim_escape",
       "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+
+    // close all tabs in other editor group
+    {
+      "key": "shift+\\",
+      "command": "workbench.action.closeEditorsInOtherGroups"
     }
 ] 
