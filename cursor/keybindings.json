@@ -47,9 +47,9 @@
 
     // send api request for http and graphql files
     {
-      "key": "alt+cmd+r",
+      "key": "shift+f",
       "command": "rest-client.request",
-      "when": "editorTextFocus && (editorLangId == 'http' || editorLangId == 'graphql')"
+      "when": "editorTextFocus && editorLangId == 'graphql' || editorTextFocus && editorLangId == 'http'"
     },
     {
       "key": "alt+cmd+r",
