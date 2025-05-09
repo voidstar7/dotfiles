@@ -49,7 +49,7 @@
     {
       "key": "shift+f",
       "command": "rest-client.request",
-      "when": "editorTextFocus && editorLangId == 'graphql' || editorTextFocus && editorLangId == 'http'"
+      "when": "editorTextFocus && (editorLangId == 'graphql' || editorLangId == 'http') && vim.mode == 'Normal'"
     },
     {
       "key": "alt+cmd+r",
