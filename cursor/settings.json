@@ -29,5 +29,5 @@
   "graphql-config.load.filePath": "../.dotfiles/.graphqlrc",
   "cursor.cpp.enablePartialAccepts": true,
   "cursor.composer.shouldAutoScrollToBottom": false,
-  "workbench.sideBar.location": "right"
+  "git.openRepositoryInParentFolders": "always"
 }
