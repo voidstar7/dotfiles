@@ -29,5 +29,7 @@
   "graphql-config.load.filePath": "../.dotfiles/.graphqlrc",
   "cursor.cpp.enablePartialAccepts": true,
   "cursor.composer.shouldAutoScrollToBottom": false,
-  "git.openRepositoryInParentFolders": "always"
+  "git.openRepositoryInParentFolders": "always",
+  "explorer.confirmDelete": false,
+  "vim.useSystemClipboard": true
 }
