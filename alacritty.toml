@@ -32,7 +32,7 @@ foreground = "0x000000"
 TERM = "xterm-256color"
 
 [font]
-size = 19.0
+size = 16.0
 
 [font.bold]
 style = "Bold"
@@ -58,6 +58,10 @@ title = "‎"
 [window.padding]
 x = 10
 y = 10
+
+[window.dimensions]
+columns = 90 
+lines = 60
 
 # enable option keys for vim
 # https://github.com/alacritty/alacritty/issues/62#issuecomment-347552058
