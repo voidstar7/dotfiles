@@ -106,4 +106,17 @@
       "key": "shift+\\",
       "command": "workbench.action.closeEditorsInOtherGroups"
     }
+
+    // fix mac bug 
+    // https://forum.cursor.com/t/terminal-focus-next-terminal-group-doesnt-work-via-default-keybindings/148358
+    {
+      "key": "cmd+shift+]",
+      "command": "workbench.action.terminal.focusNext",
+      "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalEditorFocus || terminalFocusInAny && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+      "key": "cmd+shift+[",
+      "command": "workbench.action.terminal.focusPrevious",
+      "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalEditorFocus || terminalFocusInAny && terminalProcessSupported && !terminalEditorFocus"
+    }
 ] 
