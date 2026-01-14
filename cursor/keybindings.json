@@ -24,7 +24,7 @@
     // focus the chat window
     {
         "key": "cmd+i",
-        "command": "composerMode.agent"
+        "command": "composerMode.agent",
     },
     
     // navigate between split panes
@@ -105,7 +105,7 @@
     {
       "key": "shift+\\",
       "command": "workbench.action.closeEditorsInOtherGroups"
-    }
+    },
 
     // fix mac bug 
     // https://forum.cursor.com/t/terminal-focus-next-terminal-group-doesnt-work-via-default-keybindings/148358
@@ -118,5 +118,22 @@
       "key": "cmd+shift+[",
       "command": "workbench.action.terminal.focusPrevious",
       "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalEditorFocus || terminalFocusInAny && terminalProcessSupported && !terminalEditorFocus"
+    },
+
+    // kill active terminal instance
+    {
+      "key": "ctrl+shift+x",
+      "command": "workbench.action.terminal.kill",
+      "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalEditorFocus || terminalFocusInAny && terminalProcessSupported && !terminalEditorFocus"
+    },
+
+    // focus editor pane (disable default debugger shortcut)
+    {
+      "key": "cmd+shift+d",
+      "command": "-workbench.view.debug"
+    },
+    {
+      "key": "cmd+shift+d",
+      "command": "workbench.action.focusFirstEditorGroup"
     }
 ] 
