@@ -60,7 +60,8 @@ x = 10
 y = 10
 
 [window.dimensions]
-columns = 90 
+#columns = 90 
+columns = 120 
 lines = 60
 
 # enable option keys for vim

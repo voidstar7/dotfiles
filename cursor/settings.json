@@ -31,5 +31,6 @@
   "cursor.composer.shouldAutoScrollToBottom": false,
   "git.openRepositoryInParentFolders": "always",
   "explorer.confirmDelete": false,
-  "vim.useSystemClipboard": true
+  "vim.useSystemClipboard": false,
+  "workbench.statusBar.visible": false
 }
