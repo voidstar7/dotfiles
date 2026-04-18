@@ -23,7 +23,6 @@
   "prettier.configPath": "~/.prettierrc",
   "explorer.confirmDragAndDrop": false,
   "cursor.cpp.disabledLanguages": [
-    "markdown",
     "plaintext"
   ],
   "graphql-config.load.filePath": "../.dotfiles/.graphqlrc",
@@ -31,6 +30,5 @@
   "cursor.composer.shouldAutoScrollToBottom": false,
   "git.openRepositoryInParentFolders": "always",
   "explorer.confirmDelete": false,
-  "vim.useSystemClipboard": false,
-  "workbench.statusBar.visible": false
+  "vim.useSystemClipboard": false
 }
