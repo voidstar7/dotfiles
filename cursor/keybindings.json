@@ -48,13 +48,11 @@
     // send api request for http and graphql files
     {
       "key": "shift+f",
-      "command": "rest-client.request",
+      "command": "workbench.action.terminal.sendSequence",
+      "args": {
+        "text": "node ~/dev-support/run-request/run-request.js \"${file}\" ${lineNumber}\n"
+      },
       "when": "editorTextFocus && (editorLangId == 'graphql' || editorLangId == 'http') && vim.mode == 'Normal'"
-    },
-    {
-      "key": "alt+cmd+r",
-      "command": "-rest-client.request",
-      "when": "editorTextFocus && editorLangId == 'http'"
     },
 
     // change vim normal mode screen up (ctrl+y)/down(ctrl+e)

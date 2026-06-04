@@ -1,7 +1,6 @@
 {
   "schema": [
-    "../dev-support/graphql-schemas/admin_api.graphql",
-    "../dev-support/graphql-schemas/storefront_api.graphql"
+    "../dev-support/graphql-schemas/admin_api.graphql"
   ],
   "documents": [
     "../dev-support/**/*.gql"
