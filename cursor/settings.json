@@ -34,5 +34,10 @@
   "workbench.statusBar.visible": false,
   "workbench.editor.editorActionsLocation": "hidden",
   "window.autoDetectColorScheme": false,
-  "cursor.composer.textSizeScale": 1.15
+  "cursor.composer.textSizeScale": 1.15,
+  "files.readonlyInclude": {
+    "**/run-request/response.json": true,
+    "**/run-request/response-headers.json": true,
+    "**/run-request/response-history.json": true
+  }
 }
