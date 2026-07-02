@@ -133,5 +133,9 @@
     {
       "key": "cmd+shift+d",
       "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+      "key": "cmd+shift+g",
+      "command": "workbench.view.scm"
     }
 ] 
