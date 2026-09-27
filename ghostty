@@ -54,3 +54,6 @@ window-padding-x = 10
 window-padding-y = 10
 window-width = 120
 window-height = 60
+
+# fix nvim split navigation
+macos-option-as-alt = true
