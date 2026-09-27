@@ -1,0 +1,56 @@
+# Colors
+background = ffffff
+foreground = 000000
+
+# colors.normal → palette 0-7
+palette = 0=#000000
+palette = 1=#d70000
+palette = 2=#009933
+palette = 3=#cccc00
+palette = 4=#2f5af3
+palette = 5=#af00af
+palette = 6=#2f5af3
+palette = 7=#ffffff
+
+# colors.bright → palette 8-15
+palette = 8=#000000
+palette = 9=#de3d35
+palette = 10=#00b300
+palette = 11=#ffff00
+palette = 12=#2f5af3
+palette = 13=#c61aff
+palette = 14=#3e953a
+palette = 15=#ffffff
+
+# Env / TERM
+term = xterm-256color
+
+# Font
+font-family = Menlo
+font-size = 16
+font-style-bold = Bold
+font-style-italic = Italic
+font-style-bold-italic = Bold Italic
+font-thicken = true
+font-thicken-strength = 255
+
+# Cursor
+cursor-color = cell-foreground
+cursor-text = cell-background
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+
+# Line spacing / letter spacing approximation of offset.x=1, offset.y=10
+adjust-cell-height = 40%
+adjust-cell-width = 5%
+
+# Scrollback
+scrollback-limit = 10000000
+
+# Window
+window-padding-balance = true
+window-padding-x = 10
+window-padding-y = 10
+window-width = 120
+window-height = 60
