@@ -1,6 +1,9 @@
 # Colors
 background = ffffff
 foreground = 000000
+# Above yellow on white (1.72) and below the rest of this palette (2.82+).
+# Low-contrast text is drawn black; background colours are left alone.
+minimum-contrast = 2
 
 # colors.normal → palette 0-7
 palette = 0=#000000
