@@ -46,7 +46,7 @@ adjust-cell-height = 40%
 adjust-cell-width = 5%
 
 # Scrollback
-scrollback-limit = 10000000
+scrollback-limit = 1000000
 
 # Window
 window-padding-balance = true
