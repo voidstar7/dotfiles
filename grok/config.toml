@@ -1,0 +1,40 @@
+[cli]
+installer = "internal"
+
+[marketplace]
+default_skills_installs_purged = true
+official_marketplace_auto_installed = true
+
+[[marketplace.sources]]
+name = "xAI Official"
+git = "https://github.com/xai-org/plugin-marketplace.git"
+
+[[marketplace.sources]]
+name = "Shopify-AI-Toolkit"
+git = "https://github.com/Shopify/Shopify-AI-Toolkit.git"
+
+[ui]
+theme = "terminal"
+max_thoughts_width = 120
+fork_secondary_model = "grok-4.6"
+yolo = false
+compact_mode = true
+vim_mode = true
+permission_mode = "auto"
+show_thinking_blocks = true
+
+[privacy]
+privacy_banner_acked = "2026-09-27T11:36:03Z"
+
+[features]
+terminal_theme = true
+
+[models]
+default = "grok-4.7"
+default_reasoning_effort = "high"
+
+[plugins]
+enabled = ["shopify-plugin"]
+
+[hints]
+memory_modal_fullscreen = true
